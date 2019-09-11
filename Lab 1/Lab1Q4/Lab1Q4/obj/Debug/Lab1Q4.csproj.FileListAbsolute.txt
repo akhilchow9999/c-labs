@@ -1,0 +1,6 @@
+C:\Users\cchowdar\source\repos\Lab1Q4\Lab1Q4\bin\Debug\Lab1Q4.exe.config
+C:\Users\cchowdar\source\repos\Lab1Q4\Lab1Q4\bin\Debug\Lab1Q4.exe
+C:\Users\cchowdar\source\repos\Lab1Q4\Lab1Q4\bin\Debug\Lab1Q4.pdb
+C:\Users\cchowdar\source\repos\Lab1Q4\Lab1Q4\obj\Debug\Lab1Q4.csproj.CoreCompileInputs.cache
+C:\Users\cchowdar\source\repos\Lab1Q4\Lab1Q4\obj\Debug\Lab1Q4.exe
+C:\Users\cchowdar\source\repos\Lab1Q4\Lab1Q4\obj\Debug\Lab1Q4.pdb

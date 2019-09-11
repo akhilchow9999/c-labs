@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab1q2", "lab1q2\lab1q2.csproj", "{9B15F367-ECB4-4AA4-8F53-B214B64EAFBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithematicOperations", "ArithematicOperations\ArithematicOperations.csproj", "{1A11FE76-2714-4B69-B332-CDB175AD9304}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B15F367-ECB4-4AA4-8F53-B214B64EAFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B15F367-ECB4-4AA4-8F53-B214B64EAFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B15F367-ECB4-4AA4-8F53-B214B64EAFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B15F367-ECB4-4AA4-8F53-B214B64EAFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A11FE76-2714-4B69-B332-CDB175AD9304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A11FE76-2714-4B69-B332-CDB175AD9304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A11FE76-2714-4B69-B332-CDB175AD9304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A11FE76-2714-4B69-B332-CDB175AD9304}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {167F4AFB-DCF9-4B83-9352-8A4BF4453316}
+	EndGlobalSection
+EndGlobal

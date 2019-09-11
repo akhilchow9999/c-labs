@@ -1,0 +1,6 @@
+C:\Users\cchowdar\source\repos\lab1q2\ArithematicOperations\bin\Debug\ArithematicOperations.dll
+C:\Users\cchowdar\source\repos\lab1q2\ArithematicOperations\bin\Debug\ArithematicOperations.pdb
+C:\Users\cchowdar\source\repos\lab1q2\ArithematicOperations\obj\Debug\ArithematicOperations.csprojAssemblyReference.cache
+C:\Users\cchowdar\source\repos\lab1q2\ArithematicOperations\obj\Debug\ArithematicOperations.csproj.CoreCompileInputs.cache
+C:\Users\cchowdar\source\repos\lab1q2\ArithematicOperations\obj\Debug\ArithematicOperations.dll
+C:\Users\cchowdar\source\repos\lab1q2\ArithematicOperations\obj\Debug\ArithematicOperations.pdb

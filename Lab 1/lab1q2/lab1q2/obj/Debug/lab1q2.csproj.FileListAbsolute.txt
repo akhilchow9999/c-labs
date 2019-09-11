@@ -1,0 +1,10 @@
+C:\Users\cchowdar\source\repos\lab1q2\lab1q2\bin\Debug\lab1q2.exe.config
+C:\Users\cchowdar\source\repos\lab1q2\lab1q2\bin\Debug\lab1q2.exe
+C:\Users\cchowdar\source\repos\lab1q2\lab1q2\bin\Debug\lab1q2.pdb
+C:\Users\cchowdar\source\repos\lab1q2\lab1q2\bin\Debug\ArithematicOperations.dll
+C:\Users\cchowdar\source\repos\lab1q2\lab1q2\bin\Debug\ArithematicOperations.pdb
+C:\Users\cchowdar\source\repos\lab1q2\lab1q2\obj\Debug\lab1q2.csprojAssemblyReference.cache
+C:\Users\cchowdar\source\repos\lab1q2\lab1q2\obj\Debug\lab1q2.csproj.CoreCompileInputs.cache
+C:\Users\cchowdar\source\repos\lab1q2\lab1q2\obj\Debug\lab1q2.csproj.CopyComplete
+C:\Users\cchowdar\source\repos\lab1q2\lab1q2\obj\Debug\lab1q2.exe
+C:\Users\cchowdar\source\repos\lab1q2\lab1q2\obj\Debug\lab1q2.pdb

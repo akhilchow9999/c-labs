@@ -1,0 +1,7 @@
+C:\Users\cchowdar\source\repos\Lab1Q3\Lab1Q3\bin\Debug\Lab1Q3.exe.config
+C:\Users\cchowdar\source\repos\Lab1Q3\Lab1Q3\bin\Debug\Lab1Q3.exe
+C:\Users\cchowdar\source\repos\Lab1Q3\Lab1Q3\bin\Debug\Lab1Q3.pdb
+C:\Users\cchowdar\source\repos\Lab1Q3\Lab1Q3\obj\Debug\Lab1Q3.csprojAssemblyReference.cache
+C:\Users\cchowdar\source\repos\Lab1Q3\Lab1Q3\obj\Debug\Lab1Q3.csproj.CoreCompileInputs.cache
+C:\Users\cchowdar\source\repos\Lab1Q3\Lab1Q3\obj\Debug\Lab1Q3.exe
+C:\Users\cchowdar\source\repos\Lab1Q3\Lab1Q3\obj\Debug\Lab1Q3.pdb
