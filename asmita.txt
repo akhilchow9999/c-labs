@@ -1,0 +1,89 @@
+create table OrdersTable
+(
+OrderId uniqueidentifier primary key not null,
+RetailerId uniqueidentifier not null,
+DateOfOrder datetime not null,
+TotalQuantity int not null,
+OrderAmount float not null,
+LastModifiedDateTime datetime not null,
+OrderStatus varchar(20) not null,
+OrderNumber int identity(1,1) not null
+)
+
+create table OrderDetailsTable
+(
+OrderDetailId uniqueidentifier primary key not null,
+OrderId uniqueidentifier foreign key references OrdersTable,
+IsCancelled varchar(3) default 'no',
+ProductID uniqueidentifier not null,
+ProductQuantityOrdered int not null,
+ProductPrice float not null,
+AddressId uniqueidentifier not null,
+TotalAmount float not null,
+LastModifiedDateTime datetime not null,
+DateOfOrder datetime not null,
+)
+
+
+create procedure AddOrder(@retailerId uniqueidentifier, @dateOfOrder datetime, @totalQuantity int, @orderAmount float, @lastModifiedDate datetime,@orderStatus varchar(20)) 
+as
+begin 
+	insert into OrdersTable (RetailerId, DateOfOrder, TotalQuantity, OrderAmount, LastModifiedDateTime, OrderStatus)
+		values (@retailerId, @dateOfOrder, @totalQuantity, @orderAmount, @lastModifiedDate, @orderStatus)
+end
+
+create procedure ViewOrder(@orderId uniqueidentifier) 
+as
+begin 
+	select * from OrdersTable where OrderId= @orderId
+end
+
+create procedure UpdateOrder(@orderId uniqueidentifier, @totalQuantity int, @orderAmount float, @lastModifiedDate datetime,@orderStatus varchar(20)) 
+as
+begin 
+	 update OrdersTable 
+		set
+		 TotalQuantity=@totalQuantity,
+		 OrderAmount=@orderAmount, 
+		 LastModifiedDateTime=@lastModifiedDate, 
+		 OrderStatus=@orderStatus
+		 where OrderId=@orderId
+end
+
+create procedure DeleteOrder(@orderId uniqueidentifier)
+as
+begin 
+	delete from OrdersTable where OrderId=@orderId
+end
+
+
+create procedure AddOrderDetails(@orderId uniqueidentifier, @orderDetailsId uniqueidentifier, @productId uniqueidentifier, @productQuantityOrdered int, @productPrice float, @addressId uniqueidentifier, @totalAmount float, @dateOfOrder datetime, @lastModifiedDate datetime) 
+as
+begin 
+	insert into OrderDetailsTable (OrderId, OrderDetailId, ProductID, ProductQuantityOrdered, ProductPrice, AddressId, TotalAmount, DateOfOrder, LastModifiedDateTime )
+		values (@orderId, @orderDetailsId, @productId, @productQuantityOrdered, @productPrice, @addressId, @totalAmount, @dateOfOrder, @lastModifiedDate)
+end
+
+alter procedure ViewOrderDetails(@orderDetailsId uniqueidentifier) 
+as
+begin 
+	select * from OrderDetailsTable where OrderDetailId= @orderDetailsId
+end
+
+create procedure UpdateOrderDetails(@orderId uniqueidentifier, @productQuantityOrdered int, @addressId uniqueidentifier, @totalAmount float, @lastModifiedDate datetime) 
+as
+begin 
+	 update OrderDetailsTable 
+		set
+		 ProductQuantityOrdered=@productQuantityOrdered,
+		 AddressId=@addressId, 
+		 TotalAmount=@totalAmount, 
+		 LastModifiedDateTime = @lastModifiedDate
+		 where OrderId=@orderId
+end
+
+create procedure DeleteOrderDetails(@orderId uniqueidentifier)
+as
+begin 
+	delete from OrdersTable where OrderId=@orderId
+end
